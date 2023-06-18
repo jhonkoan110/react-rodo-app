@@ -1,0 +1,26 @@
+@import '/src/styles/variables.scss';
+
+.button {
+  padding: 2px 15px;
+  border: none;
+  background-color: transparent;
+  // color: $main;
+  color: black;
+  border: 2px solid $main;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 46px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.filled {
+  background-color: $main;
+  color: $white;
+}
+
+.outlined {
+  color: $main;
+}
